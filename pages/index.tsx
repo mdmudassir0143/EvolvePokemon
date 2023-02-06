@@ -10,7 +10,8 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <div style={{ minWidth: "200px" }}>
+        <div className={styles.logo} style={{ minWidth: "200px" }}>
+          <img src="./favicon.ico" alt="" />
         </div>
         <div className={styles.title}>
           Mint and Evolve Your Pokemon
