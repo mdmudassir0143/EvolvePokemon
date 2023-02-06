@@ -36,11 +36,19 @@
   background-color: #1f1d1d;
   border-radius: 50px;
   border: 1px solid #a2d9db;
+  text-transform: capitalize;
 }
 
 .title:hover{
   background-color: #a2d9db;
   color: #040404;
+}
+
+.message{
+  text-align: center;
+  text-transform: capitalize;
+  color: #a2d9db;
+  font-weight: 500;
 }
 
 .claim{
@@ -128,5 +136,4 @@
   border-color: #a2d9db;
   text-align: center;
   color: #a2d9db;
-  padding-top: 10px;
 }

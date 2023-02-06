@@ -21,6 +21,7 @@ const Home: NextPage = () => {
       </div>
       <main className={styles.main}>
         <div className={styles.claim}>
+        <div className={styles.message}>You need two Nfts to Evolve</div>
           <div className={styles.claimbutton}><Web3Button contractAddress={"0xe557b4CBDd6EfD4a19c8848eA0Bb33aC8EeC4A8A"} action={(contract) => contract.erc1155.claim(0, 1)}> Claim a Bulbasaur</Web3Button></div>
           <div className={styles.nftContainer}>{
             nfts?.map((nft) =>
