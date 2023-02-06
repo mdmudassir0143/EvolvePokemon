@@ -34,7 +34,7 @@
   display: flex;
   justify-content: center;
   background-color: #1f1d1d;
-  border-radius: 50px;
+  border-radius: 10px;
   border: 1px solid #a2d9db;
   text-transform: capitalize;
 }
