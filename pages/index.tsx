@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <div className={styles.header}>
         <div className={styles.logo} style={{ minWidth: "200px" }}>
-          <img src="./favicon.ico" alt="" />
+          <img src="./logo.png" alt="" />
         </div>
         <div className={styles.title}>
           Mint and Evolve Your Pokemon

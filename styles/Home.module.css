@@ -130,6 +130,7 @@
 .logo {
   display: flex;
   justify-content: center;
+  height: 70px;
 }
 
 .footer {
